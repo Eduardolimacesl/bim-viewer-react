@@ -130,12 +130,12 @@ export class MapScene {
   }
 
   private getConfig(container: HTMLDivElement) {
-    const center = [7.730277288470006, 63.110047455818375] as [number, number]
+    const center = [-45.87186299387193, -23.209813332199715] as [number, number]
     this.center = { lng: center[0], lat: center[1] }
     return {
       container,
       accessToken: MAPBOX_KEY,
-      zoom: 15.35,
+      zoom: 17,
       pitch: 60,
       bearing: -40,
       center,
