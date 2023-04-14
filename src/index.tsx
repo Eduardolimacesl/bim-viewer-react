@@ -14,13 +14,14 @@ const root = ReactDOM.createRoot(
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDjR_ivQkdToY7uyeVWgyXld1Awl1jcSsQ",
-  authDomain: "ifcjs-frontend-exercise.firebaseapp.com",
-  projectId: "ifcjs-frontend-exercise",
-  storageBucket: "ifcjs-frontend-exercise.appspot.com",
-  messagingSenderId: "490019428851",
-  appId: "1:490019428851:web:9b912649cc47d7929c9a86",
-};
+  apiKey: 'AIzaSyAL8NkIrSyVg5mN1aBCr3cPQQd4g2GqyNY',
+  authDomain: 'bimviewer-4feec.firebaseapp.com',
+  projectId: 'bimviewer-4feec',
+  storageBucket: 'bimviewer-4feec.appspot.com',
+  messagingSenderId: '968997498967',
+  appId: '1:968997498967:web:60497125ca826495fbf312',
+  measurementId: 'G-M8M8KJJNYC',
+}
 
 // Initialize Firebase
 initializeApp(firebaseConfig);
